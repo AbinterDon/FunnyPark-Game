@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FunnyPark_Game</string>
+    <string name="game01">GAME01</string>
+    <string name="game03">GAME03</string>
+    <string name="game02">GAME02</string>
+    <string name="water">能源Ｘ</string>
+    <string name="circle">環環相扣</string>
+    <string name="dark">黑暗援助</string>
+    <string name="textview">TextView</string>
+    <string name="minLight">TextView</string>
+    <string name="currLight">TextView</string>
+    <string name="maxLight">TextView</string>
+    <string name="clock">時鐘沙漏</string>
+    <string name="puzzle">迷霧解謎</string>
+</resources>

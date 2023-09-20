@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 是否開啓抗鋸齒 -->
+    <attr name="antiAlias" format="boolean" />
+    <!-- 圓弧起始角度，3點鐘方向爲0，順時針遞增，小於0或大於360進行取餘 -->
+    <attr name="startAngle" format="float" />
+    <!-- 圓弧度數 -->
+    <attr name="sweepAngle" format="float" />
+    <!-- 設置動畫時間 -->
+    <attr name="animTime" format="integer" />
+    <!-- 繪製內容的數值 -->
+    <attr name="maxValue" format="float" />
+    <attr name="value" format="float" />
+    <!-- 繪製內容的單位 -->
+    <attr name="unit" format="string|reference" />
+    <attr name="unitSize" format="dimension" />
+    <attr name="unitColor" format="color|reference" />
+    <!-- 繪製內容相應的提示語 -->
+    <attr name="hint" format="string|reference" />
+    <attr name="hintSize" format="dimension" />
+    <attr name="hintColor" format="color|reference" />
+    <!-- 精度，默認爲0 -->
+    <attr name="precision" format="integer" />
+    <attr name="valueSize" format="dimension" />
+    <attr name="valueColor" format="color|reference" />
+    <!-- 背景圓弧顏色，默認白色 -->
+    <attr name="bgArcColor" format="color|reference" />
+    <!-- 圓弧寬度 -->
+    <attr name="arcWidth" format="dimension" />
+    <!-- 圓弧顏色， -->
+    <attr name="arcColors" format="color|reference" />
+    <!-- 文字的偏移量 相對於圓半徑而言，默認三分之一 -->
+    <attr name="textOffsetPercentInRadius" format="float" />
+    <!-- 背景圓弧寬度 -->
+    <attr name="bgArcWidth" format="dimension" />
+    <!-- 線條數 -->
+    <attr name="dottedLineCount" format="integer" />
+    <!-- 圓弧跟虛線之間的距離 -->
+    <attr name="lineDistance" format="integer" />
+    <!-- 線條寬度 -->
+    <attr name="dottedLineWidth" format="dimension" />
+    <!-- 進度條的前景色 起始顏色-->
+    <attr name="foreStartColor" format="color" />
+    <!-- 進度條的前景色 結束顏色-->
+    <attr name="foreEndColor" format="color" />
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="antiAlias" />
+        <attr name="startAngle" />
+        <attr name="sweepAngle" />
+        <attr name="animTime" />
+        <attr name="maxValue" />
+        <attr name="value" />
+        <attr name="unit" />
+        <attr name="unitSize" />
+        <attr name="unitColor" />
+        <attr name="hint" />
+        <attr name="hintSize" />
+        <attr name="hintColor" />
+        <attr name="precision" />
+        <attr name="valueSize" />
+        <attr name="valueColor" />
+        <attr name="bgArcColor" />
+        <attr name="arcWidth" />
+        <attr name="arcColors" />
+        <attr name="textOffsetPercentInRadius" />
+        <attr name="bgArcWidth" />
+        <attr name="dottedLineCount" />
+        <attr name="lineDistance" />
+        <attr name="dottedLineWidth" />
+        <attr name="foreStartColor" />
+        <attr name="foreEndColor" />
+
+    </declare-styleable>
+
+</resources>
